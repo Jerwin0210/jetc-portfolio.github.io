@@ -362,9 +362,6 @@ img{
     margin-top: 2rem;
 }
 
-
-
-
 .home__scroll-button{
     color: var(--first-color);
     transition: all 300ms;
@@ -386,7 +383,7 @@ img{
 }
 
 .home__scroll-arrow{
-    font-size: 1.50rem;
+    font-size: 2rem;
     animation: blinking 0.8s infinite ease;
 }
 @keyframes blinking {
