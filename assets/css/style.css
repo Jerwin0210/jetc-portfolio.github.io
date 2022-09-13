@@ -106,17 +106,18 @@ body.dark-theme{
     padding: 0;
     margin: 0;
 }
-html, body{
+html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    
 }
 
-body{
+body, main{
     margin: 0 0 var(--header-height);
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
+    overflow-x: hidden !important;
 }
 
 h1,h2,h3,h4{
