@@ -116,6 +116,7 @@ body{
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
+
 }
 
 h1,h2,h3,h4{
