@@ -1,0 +1,221 @@
+ <!-- ==============EDUCATION & EXPERIENCE=============== -->
+ <section class="education section">
+    <h2 class="section__title">Education & Experience</h2>
+         <span class="section__subtitle">My Personal Journey</span>
+
+         <div class="education__container container">
+            <div class="education__tabs">
+
+                <div class="education__button button--flex education__active" data-target="#education">
+                    <i class="uil uil-graduation-cap education__icon"></i>
+                    Education
+                </div>
+
+                <div class="education__button button--flex" data-target="#work">
+                    <i class="uil uil-suitcase-alt education__icon"></i>
+                    Work Experience
+                </div>
+
+            </div>
+
+            <div class="education__sections">
+                <!-- ==============EDUCATION CONTENT 1============== -->
+
+                <div class="education__content education__active" data-content id="education">
+                    <!-- ==============EDUCATION 1=============== -->
+                    <div class="education__data">
+                        <div class="">
+                            <h3 class="education__title">Associate in Computer Technology</h3>
+                            <span class="education__subtitle">Kolehiyo ng Lungsod ng Lipa</span>
+                            <div class="education__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2018 - 2020
+                            </div>
+                        </div>
+                        <div class="">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- ==============EDUCATION 2=============== -->
+                    <div class="education__data">
+
+                        <div class=""></div>
+
+                        <div class="">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div class="">
+                            <h3 class="education__title">Bachelor of Science in Computer Science</h3>
+                            <span class="education__subtitle">Kolehiyo ng Lungsod ng Lipa</span>
+                            <div class="education__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2020 - 2022
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <!-- ==============EDUCATION 3=============== -->
+                    <div class="education__data">
+                        <div class="">
+                            <h3 class="education__title">For Masteral</h3>
+                            <span class="education__subtitle">N/A</span>
+                            <div class="education__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                Soon...
+                            </div>
+                        </div>
+                        <div class="">
+                            <span class="education__rounder"></span>
+                            <!-- <span class="education__line"></span> -->
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <!-- ==============EXPERIENCE CONTENT 2============== -->
+                <div class="education__content" data-content id="work">
+                    <!-- ==============EDUCATION 1=============== -->
+                    <div class="education__data">
+                        <div class="">
+                            <h3 class="education__title">IT - Intern</h3>
+                            <span class="education__subtitle">Department of Education</span>
+                            <div class="education__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2020
+                            </div>
+                        </div>
+                        <div class="">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+                    </div>
+
+                    <!-- ==============EDUCATION 2=============== -->
+                    <div class="education__data">
+
+                        <div class=""></div>
+
+                        <div class="">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div class="">
+                            <h3 class="education__title">IT - Specialist</h3>
+                            <span class="education__subtitle">Astral Fuels</span>
+                            <div class="education__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022 - ongoing
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                    <!-- ==============EDUCATION 3=============== -->
+                    <div class="education__data">
+
+                        
+
+                       
+                        <div class="">
+                            <h3 class="education__title">Soon to be added xD</h3>
+                            <span class="education__subtitle">N/A</span>
+                            <div class="education__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                N/A
+                            </div>
+                        </div>
+                        <div class="">
+                            <span class="education__rounder"></span>
+                            <!-- <span class="education__line"></span> -->
+                        </div>
+
+                       
+                    </div>
+
+                </div>
+            </div>
+
+         </div>
+
+</section>
+
+
+/* ==================EDUCATION & EXPERIENCE================ */
+.education__tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+}
+
+.education__button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+}
+
+.education__button:hover{
+    color: var(--first-color);
+}
+
+.education__icon{
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.education__data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.education__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.education__subtitle{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.education__calendar{
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+}
+
+.education__rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: var(--first-color);
+    border-radius: 50%;
+}
+
+.education__line{
+   display: block;
+   width: 1px;
+   height: 100%;
+   background: var(--first-color);
+   transform: translate(6px, -7px);
+}
+
+.education [data-content]{
+    display: none;
+}
+
+.education__active[data-content]{
+    display: block;
+}
+
+.education__button.education__active{
+    color: var(--first-color);
+}
