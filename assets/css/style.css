@@ -108,10 +108,10 @@ body.dark-theme{
 }
 html{
     scroll-behavior: smooth;
-    
+    overflow-x: hidden !important;
 }
 
-body, main{
+body{
     margin: 0 0 var(--header-height);
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -357,8 +357,13 @@ img{
 }
 
 .home__scroll{
-    /* display: none; */
+    display: flex;
+    justify-self: center;
+    margin-top: 2rem;
 }
+
+
+
 
 .home__scroll-button{
     color: var(--first-color);
@@ -381,7 +386,16 @@ img{
 }
 
 .home__scroll-arrow{
-    font-size: 1.25rem;
+    font-size: 1.50rem;
+    animation: blinking 0.8s infinite ease;
+}
+@keyframes blinking {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 /* ================BUTTONS=================== */
