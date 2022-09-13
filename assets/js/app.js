@@ -20,7 +20,7 @@ let letter = '';
         index = 0;
     }
 
-    setTimeout(type, 200)
+    setTimeout(type, 250)
 
 }())
 
