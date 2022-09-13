@@ -359,7 +359,6 @@ img{
 .home__scroll{
     display: flex;
     justify-self: center;
-    margin-top: 2rem;
 }
 
 .home__scroll-button{
