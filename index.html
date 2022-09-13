@@ -11,8 +11,12 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Jetc | Portfolio</title>
+
+
 </head>
 <body>
     
@@ -82,11 +86,11 @@
             <div class="home__container container grid">
                 <div class="home__content grid">
                     
-                    <div class="home__img home__blob">
+                    <div class="home__img home__blob" data-aos="fade-up" data-aos-offset="200">
                        <img src="assets/img/profileme.png" class="home__img-img" alt="">
                     </div>
 
-                    <div class="home__social">
+                    <div class="home__social" data-aos="fade-left" data-aos-offset="300">
                         <a href="" class="home__social-icon">
                             <i class="uil uil-linkedin"></i>
                         </a>
@@ -97,7 +101,7 @@
                             <i class="uil uil-twitter"></i>
                         </a>
                     </div>
-                    <div class="home__data">
+                    <div class="home__data" data-aos="fade-right" data-aos-offset="400">
                         <h1 class="home__title">Hi, I'm JETC</h1>
                         <h3 class="home__subtitle typing"></h3>
                         <p class="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, suscipit.</p>
@@ -118,16 +122,16 @@
 
         <!-- ==============ABOUT SECTION=============== -->
         <section class="about section" id="about">
-            <h2 class="section__title">About Me</h2>
-            <span class="section__subtitle">My Introduction</span>
+            <h2 class="section__title" data-aos="fade-up" data-aos-offset="200">About Me</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-offset="200">My Introduction</span>
 
             <div class="about__container container grid">
-                <img src="assets/img/aboutme1.png" alt="" class="about__img">
+                <img src="assets/img/aboutme1.png" alt="" class="about__img" data-aos="fade-up" data-aos-offset="200">
                 
-                <div class="about__data">
+                <div class="about__data" data-aos="fade-up" data-aos-offset="200">
                     <p class="about__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas incidunt maiores sunt quae sit minima.</p>
 
-                    <div class="about__info">
+                    <div class="about__info" data-aos="fade-up" data-aos-offset="200">
                         <div class="">
                             <i class="uil uil-utensils-alt about__icons"></i>
                             <!-- <span class="about__info-title">ACT</span> -->
@@ -149,7 +153,7 @@
                             <span class="about__info-name">Repeat</span>
                         </div>
                     </div>
-                    <div class="about__buttons">
+                    <div class="about__buttons" data-aos="fade-up" data-aos-offset="200">
                         <a href="#" class="button button--flex">
                            Download CV <i class="uil uil-download-alt button__icon"></i>
                         </a>
@@ -161,11 +165,11 @@
 
             <div class="qualification__container container">
                 <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education" data-aos="fade-right" data-aos-offset="200">
                         <i class="uil uil-graduation-cap qualification__icon"></i>
                         Education
                     </div>
-                    <div class="qualification__button button--flex" data-target="#work">
+                    <div class="qualification__button button--flex" data-target="#work" data-aos="fade-left" data-aos-offset="300">
                         <i class="uil uil-suitcase-alt qualification__icon"></i>
                         Experience
                     </div>
@@ -174,7 +178,7 @@
                     <div class="qualification__sections">
 
                         <!-- ==============QUALIFICATIONS CONTENT 1================= -->
-                        <div class="qualification__content qualification__active" data-content id="education">
+                        <div class="qualification__content qualification__active" data-content id="education" data-aos="fade-up" data-aos-offset="200">
                             <!-- ==============QUALIFICATIONS 1================= -->
                             <div class="qualification__data">
                                 <div class="">
@@ -193,7 +197,7 @@
                             </div>
 
                             <!-- ==============QUALIFICATIONS 2================= -->
-                            <div class="qualification__data">
+                            <div class="qualification__data" data-aos="fade-up" data-aos-offset="200">
                                 <div class=""></div>
 
                                 <div class="">
@@ -307,13 +311,13 @@
 
         <!-- ==============SKILLS SECTION=============== -->
         <section class="skills section" id="skills">
-            <h2 class="section__title">Skills</h2>
-            <span class="section__subtitle">My Technical Skills</span>
+            <h2 class="section__title" data-aos="fade-up" data-aos-offset="200">Skills</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-offset="300">My Technical Skills</span>
 
-            <div class="skills__container container grid">
+            <div class="skills__container container grid" data-aos="fade-up" data-aos-offset="200">
                 <div class="">
                     <!-- ============SKILL 1========== -->
-                    <div class="skills__content skills__open">
+                    <div class="skills__content skills__open" data-aos="fade-up" data-aos-offset="300">
                         <div class="skills__header">
                             <i class="uil uil-brackets-curly skills__icon"></i>
                             <div class="">
@@ -368,7 +372,7 @@
                     </div>
                     <br>
                     <!-- ============SKILL 2========== -->
-                    <div class="skills__content skills__close">
+                    <div class="skills__content skills__close" data-aos="fade-up" data-aos-offset="300">
                         <div class="skills__header">
                             <i class="uil uil-server-network-alt skills__icon"></i>
                             <div class="">
@@ -425,7 +429,7 @@
                     <br>
                     <div class="">
                         <!-- ============SKILL 3========== -->
-                    <div class="skills__content skills__close">
+                    <div class="skills__content skills__close" data-aos="fade-up" data-aos-offset="300">
                         <div class="skills__header">
                             <i class="uil uil-wrench skills__icon"></i>
                             <div class="">
@@ -480,12 +484,12 @@
 
          <!-- ==============SERVICES SECTION=============== -->
         <section class="services section" id="services">
-            <h2 class="section__title">Services</h2>
-            <span class="section__subtitle">What I Offer</span>
+            <h2 class="section__title" data-aos="fade-up" data-aos-offset="200">Services</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-offset="300">What I Offer</span>
 
             <div class="services__container container grid">
                  <!-- ==============SERVICES 1=============== -->
-                 <div class="services__content">
+                 <div class="services__content" data-aos="flip-up" data-aos-offset="200">
                     <div class="">
                         <i class="uil uil-web-grid-alt services__icon"></i>
                         <h3 class="services__title">Web Design</h3>
@@ -523,7 +527,7 @@
                  </div>
 
                  <!-- ==============SERVICES 2=============== -->
-                 <div class="services__content">
+                 <div class="services__content" data-aos="flip-up" data-aos-offset="300">
                     <div class="">
                         <i class="uil uil-arrow services__icon"></i>
                         <h3 class="services__title">Web Development</h3>
@@ -561,7 +565,7 @@
                  </div>
 
                  <!-- ==============SERVICES 3=============== -->
-                 <div class="services__content">
+                 <div class="services__content" data-aos="flip-up" data-aos-offset="400">
                     <div class="">
                         <i class="uil uil-wrench services__icon"></i>
                         <h3 class="services__title">Technical Support</h3>
@@ -603,11 +607,11 @@
 
         <!-- ===============PORTFOLIO=================== -->
         <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">My Recent Projects</span>
+            <h2 class="section__title" data-aos="fade-up" data-aos-offset="200">Portfolio</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-offset="300">My Recent Projects</span>
 
             <div class="portfolio__container container swiper-container">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper" data-aos="fade-up" data-aos-offset="400">
                     <!-- ==============PORTFOLIO 1 -->
                     <div class="portfolio_content grid swiper-slide">
                         <img src="assets/img/building-website.png" class="portfolio__img" alt="">
@@ -657,11 +661,11 @@
 
         <!-- ==============CONTACT SECTION=============== -->
         <section class="contact section" id="contact">
-            <h2 class="section__title">Contact Me</h2>
-            <span class="section__subtitle">Ge in Touch</span>
+            <h2 class="section__title" data-aos="fade-up" data-aos-offset="200">Contact Me</h2>
+            <span class="section__subtitle" data-aos="fade-up" data-aos-offset="300">Ge in Touch</span>
 
             <div class="contact__container container grid">
-                <div class="">
+                <div class="" data-aos="fade-right" data-aos-offset="200">
 
                     <div class="contact__information">
                         <i class="uil uil-phone contact__icon"></i>
@@ -692,7 +696,7 @@
 
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="" class="contact__form grid" data-aos="fade-left" data-aos-offset="300">
                     <div class="contact__inputs grid">
 
                         <div class="contact__content">
@@ -730,7 +734,7 @@
 
 
     <!-- ============FOOTER================ -->
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up" data-aos-offset="200">
         <div class="footer__bg">
             <div class="footer__container container grid">
                 <div class="">
@@ -780,5 +784,11 @@
 
     <!-- =============MAIN JS============== -->
     <script src="assets/js/app.js"></script>
+
+    <!-- =============AOS=============== -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
