@@ -920,7 +920,7 @@ img{
     }
 
     .about__img{
-        width: 240px;
+        width: 220px;
     }
 
     .skills__title{
@@ -949,7 +949,7 @@ img{
 
 @media screen and (max-width: 568px){
     .home__img{
-        width: 280px;
+        width: 220px;
     }
     .about__img{
         width: 280px;
@@ -961,7 +961,7 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
     .home__img{
-        width: 240px;
+        width: 220px;
     }
     .qualification__sections{
         display: grid;
@@ -1007,7 +1007,7 @@ img{
     }
     .home__img{
         padding: 0 2rem 0 0;
-        width: 360px;
+        width: 260px;
     }
     .home__social{
         grid-column: 2/3;
@@ -1102,7 +1102,7 @@ img{
         padding: 0;
     }
     .home__img{
-        width: 420px;
+        width: 280px;
     }
 
     .services__container{
